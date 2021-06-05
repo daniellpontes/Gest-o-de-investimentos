@@ -57,3 +57,4 @@ GestaoInvestimentos
       - `exit`
       - `docker exec -it django bash`
       - `python manage.py migrate`
+      - `exit`
