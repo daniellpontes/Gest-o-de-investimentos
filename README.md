@@ -58,4 +58,5 @@ GestaoInvestimentos
       - `docker exec -it django bash`
       - `python manage.py makemigrations`
       - `python manage.py migrate`
+      - Crie o super usuário e a senha: `python manage.py createsuperuser`
       - `exit`
