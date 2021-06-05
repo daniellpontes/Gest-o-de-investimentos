@@ -11,11 +11,22 @@ Se você investe em renda variável, como **Fundos de Investimento Imobiliários
 
 Nesse último caso, diferentemente da renda fixa, em que é só transcrever o informe de rendimentos para a declaração, na renda variável as corretoras não informam para você o seu preço médio por ativo, o imposto retido e o seu resultado mensal. Isso compete a você e requer organização, pois inconsistências nessas informações podem acarretar problemas com a Receita.
 
-Assim, essa aplicação visa te ajudar nessa tarefa de organização para estar em dias com o fisco, além de disponibilizar informações para melhor gerir a sua carteira de investimentos e o fluxo de caixa dela decorrente.
+Assim, esse sistema visa te ajudar nessa tarefa de organização para estar em dias com o fisco, além de disponibilizar informações para melhor gerir a sua carteira de investimentos e o fluxo de caixa dela decorrente.
 
-Ela provê as seguintes funcionalidades:
+Ele provê as seguintes funcionalidades:
 - **Investimentos**: cadastro e consulta de administradoras, segmentos, classe de ativos, produtos financeiros, operações de compra e venda, carteira e proventos;
 - **Financeiro**: cadastro e consulta de bancos, agências, contas, códigos de movimentação e movimentações financeiras.
+
+## Tecnologias utilizadas
+O sistema Gestão de Investimentos utiliza as seguintes tecnologias:
+
+
+![docker](https://user-images.githubusercontent.com/56877733/120907322-ca547b80-c636-11eb-9c9a-20c33bad3521.png)
+![postgresql](https://user-images.githubusercontent.com/56877733/120907332-dd674b80-c636-11eb-8391-b84e8d25f87c.png)
+![python](https://user-images.githubusercontent.com/56877733/120907339-eb1cd100-c636-11eb-8ff8-4a976b1ab2d1.jpeg)
+![django](https://user-images.githubusercontent.com/56877733/120907343-f53ecf80-c636-11eb-8336-6bee57ac85c2.png)
+![django rest](https://user-images.githubusercontent.com/56877733/120907350-fec83780-c636-11eb-90ef-7ac1d8458339.png)
+
 
 ## Estrutura de diretórios
 ``` 
