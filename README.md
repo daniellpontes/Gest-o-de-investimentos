@@ -16,3 +16,21 @@ Assim, essa aplicação visa te ajudar nessa tarefa de organização para estar 
 Ela provê as seguintes funcionalidades:
 - **Investimentos**: cadastro e consulta de administradoras, segmentos, classe de ativos, produtos financeiros, operações de compra e venda, carteira e proventos;
 - **Financeiro**: cadastro e consulta de bancos, agências, contas, códigos de movimentação e movimentações financeiras.
+
+## Instalação da aplicação
+### Estrutura de diretórios
+``` 
+GestaoInvestimentos
+|___aplicacao
+    |___back-end
+        |___install-packages.sh
+        |___.env
+        |___requirements.txt
+        |___manage.py
+        |___app_x
+    |___docker-compose.yml
+    |___Dockerfile
+    |___.env.postgres
+|___documentacao
+
+``` 
