@@ -40,8 +40,9 @@ GestaoInvestimentos
    - Verifique se o kernel do Linux é >= 3.8 e 64 bits: `uname -a`
    - Atualize os índices de repositórios de pacote: `apt-get update`
    - Instale o Docker: `apt-get install -y docker.io`
-   - Verifique a versão do Docker instalada: `docker info`
+   - Verifique o Docker foi instalado: `docker info`
    - Adicione o seu usuário ao grupo Docker para não precisar sempre executar como sudo: `sudo gpasswd -a seu_usuario docker`
       - Efetue logoff para atualizar as permissões.
-   - xx 
+   - Instale o docker-compose: [roteiro](https://docs.docker.com/compose/install/);
+   - Verifique se o docker-compose foi instalado: `docker-compose --version`
 
