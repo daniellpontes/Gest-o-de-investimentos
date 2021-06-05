@@ -52,9 +52,10 @@ GestaoInvestimentos
       - `psql -h localhost -U administrador gest-investimentos`
       - `CREATE SCHEMA investimentos AUTHORIZATION administrador;`
       - `CREATE SCHEMA financeiro AUTHORIZATION administrador;`
-      - `CREATE SCHEMA documentos AUTHORIZATION administrador;`
+      - Verifique os schemas criados: `\dn`
       - `exit`
       - `exit`
       - `docker exec -it django bash`
+      - `python manage.py makemigrations`
       - `python manage.py migrate`
       - `exit`
