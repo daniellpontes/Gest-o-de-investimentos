@@ -46,3 +46,14 @@ GestaoInvestimentos
    - Instale o docker-compose: [roteiro](https://docs.docker.com/compose/install/);
    - Verifique se o docker-compose foi instalado: `docker-compose --version`
 
+2. **Banco de dados**:
+   - Acesse o diretório aplicacao e execute:
+      - `docker exec -it banco bash`
+      - `psql -h localhost -U administrador gest-investimentos`
+      - `CREATE SCHEMA investimentos AUTHORIZATION administrador;`
+      - `CREATE SCHEMA financeiro AUTHORIZATION administrador;`
+      - `CREATE SCHEMA documentos AUTHORIZATION administrador;`
+      - `exit`
+      - `exit`
+      - `docker exec -it django bash`
+      - `python manage.py migrate`
