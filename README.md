@@ -17,8 +17,7 @@ Ela provê as seguintes funcionalidades:
 - **Investimentos**: cadastro e consulta de administradoras, segmentos, classe de ativos, produtos financeiros, operações de compra e venda, carteira e proventos;
 - **Financeiro**: cadastro e consulta de bancos, agências, contas, códigos de movimentação e movimentações financeiras.
 
-## Instalação da aplicação
-### Estrutura de diretórios
+## Estrutura de diretórios
 ``` 
 GestaoInvestimentos
 |___aplicacao
@@ -34,3 +33,15 @@ GestaoInvestimentos
 |___documentacao
 
 ``` 
+## Instalação - ambiente Linux
+1. **Docker**: 
+   - Logue como super-usuário: `sudo su`
+   - Verifique se existe alguma versão do Docker instalada: `service docker.io status`
+   - Verifique se o kernel do Linux é >= 3.8 e 64 bits: `uname -a`
+   - Atualize os índices de repositórios de pacote: `apt-get update`
+   - Instale o Docker: `apt-get install -y docker.io`
+   - Verifique a versão do Docker instalada: `docker info`
+   - Adicione o seu usuário ao grupo Docker para não precisar sempre executar como sudo: `sudo gpasswd -a seu_usuario docker`
+      - Efetue logoff para atualizar as permissões.
+   - xx 
+
