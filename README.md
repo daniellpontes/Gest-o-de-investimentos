@@ -34,6 +34,27 @@ A fim de prover mais informações e funcionalidades ao menor custo de desenvolv
 - Criação de urls para chamada de métodos da API que exportam dados via arquivo *.csv;
 - Criação de signals onde um evento em uma tabela gera ações em outras tabelas a partir de uma regra de negócio.
 
+## Uso do sistema
+Antes de instalar, veja como o sistema funciona. Para tal, acesse XXXXXX e forneça as seguintes credenciais:
+- Usuário
+- Senha
+
+Lembramos que no endereço fornecido, o sistema apenas disponibiliza o cadastro de movimentação financera, a compra e a venda de ativos e o recebimento de proventos. Já os demais itens, apenas para consulta. 
+
+Esteja você acessando o sistema na sua máquina ou no servidor, para uma melhor experiência, busque seguir o roteiro listado abaixo:
+- **Financeiro**:
+   - Cadastre/consulte o banco, agência e conta;
+   - Importe/consulte os códigos de movimentação;
+   - Faça depósitos e/ou retiradas da movimentação da conta. Teste os filtros e o campo de busca;
+   - Consulte o formulário de contas e verifique que o saldo vai sendo atualizado.
+- **Investimentos**:
+   - Cadastre/consulte: tipos de rentabilidade, tipos de provento, tipos de mandato, tipos de gestão, segmentos e classes de ativo;
+   - Cadastre/consulte as administradoras dos ativos que você venha a operar;
+   - Cadastre/consulte os produtos financeiros (ativos) que você venha a operar;
+      - Para obter os dados exigidos no cadastro, consulte os informes mensais do FII na [B3](http://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/fundos-de-investimentos/fii/fiis-listados/);
+      - Essa é uma alternativa para avaliar a saúde financeiro do FII.
+
+
 ## Estrutura de diretórios
 ``` 
 GestaoInvestimentos
