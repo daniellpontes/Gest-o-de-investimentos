@@ -27,6 +27,12 @@ O sistema Gestão de Investimentos utiliza as seguintes tecnologias:
 ![django](https://user-images.githubusercontent.com/56877733/120907343-f53ecf80-c636-11eb-8336-6bee57ac85c2.png)
 ![django rest](https://user-images.githubusercontent.com/56877733/120907350-fec83780-c636-11eb-90ef-7ac1d8458339.png)
 
+A fim de prover mais informações e funcionalidades ao menor custo de desenvolvimento possível, foi utilizada a interface administrativa disponibilizada pelo Django, onde, a partir da qual, utilizamos os seguintes recursos built-in:
+- Gestão de usuários e permissões;
+- Criação de tabelas de bancos de dados com as seguintes funcionalidades: chaves estrangeiras compostas, atributos sem repetição de valor, verbose_name_plural e tabelas da app vinculadas ao schema correspondente do banco;
+- Criação de formulários com as seguintes funcionalidades: list_display, list_filter, search_fields, autocomplete_fields, readonly_fields, raw_id_fields, fieldsets e inlines;
+- Criação de urls para chamada de métodos da API que exportam dados via arquivo *.csv;
+- Criação de signals onde um evento em uma tabela gera ações em outras tabelas a partir de uma regra de negócio.
 
 ## Estrutura de diretórios
 ``` 
