@@ -53,6 +53,10 @@ Esteja você acessando o sistema na sua máquina ou no servidor, para uma melhor
    - Cadastre/consulte os produtos financeiros (ativos) que você venha a operar;
       - Para obter os dados exigidos no cadastro, consulte os informes mensais do FII na [B3](http://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/fundos-de-investimentos/fii/fiis-listados/);
       - Essa é uma alternativa para avaliar a saúde financeiro do FII. [Exemplo de informe](https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=176594).
+   - Cadastre uma compra em Carteira;
+      - Verifique que o valor da operação foi debitado da movimentação financeira e o saldo da conta foi atualizado;
+   - Cadastre outra compra com valor unitário diferente;
+      - Verifique, em carteira, que o valor médio é calculado a cada operação.
 
 
 ## Estrutura de diretórios
