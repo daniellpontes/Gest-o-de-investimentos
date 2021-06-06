@@ -52,7 +52,7 @@ Esteja você acessando o sistema na sua máquina ou no servidor, para uma melhor
    - Cadastre/consulte as administradoras dos ativos que você venha a operar;
    - Cadastre/consulte os produtos financeiros (ativos) que você venha a operar;
       - Para obter os dados exigidos no cadastro, consulte os informes mensais do FII na [B3](http://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/fundos-de-investimentos/fii/fiis-listados/);
-      - Essa é uma alternativa para avaliar a saúde financeiro do FII.
+      - Essa é uma alternativa para avaliar a saúde financeiro do FII. [Exemplo de informe](https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=176594).
 
 
 ## Estrutura de diretórios
